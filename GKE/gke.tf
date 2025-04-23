@@ -10,7 +10,7 @@ terraform{
 
 # provider configuration
 provider "google" {
-    region = "us-central1"
+    region = "us-west1"
 }
 
 # new project
