@@ -13,7 +13,7 @@ provider "google" {
     region = "us-west1"
 }
 
-# new project
+# new project #
 resource "google_project" "project_trial"{
     name = "third-time-is-a-charm"
     project_id = "project-20-04-2025"
