@@ -8,7 +8,7 @@ terraform{
 }
 
 
-# provider configuration
+# provider configuration #
 provider "google" {
     region = "us-west1"
 }
