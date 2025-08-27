@@ -4,5 +4,5 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     - name: print
-      echo "Hello you pushed a code"
+      run: echo "Hello you pushed a code"
       shell: bash
