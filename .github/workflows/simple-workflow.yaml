@@ -1,8 +1,9 @@
 name: first-workflow
 on: push
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: print
-      run: echo "Hello you pushed a code"
-      shell: bash
+  bash-example:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "Hello you pushed a code"
+        shell: bash
